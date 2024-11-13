@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Home Devices</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <span class="tech-icon"
+          ><img src="./images/tech.jpeg" class="imgt"
+        /></span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#security">Security</a></li>
+          <li><a href="#lighting">Lighting</a></li>
+          <li><a href="#thermostats">Thermostats</a></li>
+          <li><a href="#speakers">Smart Speakers</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="hero">
+      <h1>Welcome to Smart Home Devices</h1>
+      <p>
+        Your home, smarter and safer. Explore our innovative products for a
+        better living experience.
+      </p>
+
+      <div class="featured-products">
+        <div class="product-feature">
+          <img
+            src="./images/smart-camera.jpg"
+            alt="Smart Camera"
+            class="featured-image"
+          />
+          <h3>Smart Camera</h3>
+          <p class="price">$199.99</p>
+        </div>
+        <div class="product-feature">
+          <img
+            src="./images/Smart Lock.jpeg"
+            alt="Smart Lock"
+            class="featured-image"
+          />
+          <h3>Smart Lock</h3>
+          <p class="price">$149.99</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="security">
+      <h2>Security Systems</h2>
+      <p>
+        Protect your home with the latest in smart security devices. From
+        cameras to door sensors, we have you covered.
+      </p>
+
+      <div class="product-card" data-product="Smart Camera" data-price="199.99">
+        <img
+          src="./images/smart-camera.jpg"
+          alt="Smart Camera"
+          class="product-image"
+        />
+        <h3>Smart Camera</h3>
+        <p class="price">$199.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product-card" data-product="Smart Lock" data-price="149.99">
+        <img
+          src="./images/Smart Lock.jpeg"
+          alt="Smart Lock"
+          class="product-image"
+        />
+        <h3>Smart Lock</h3>
+        <p class="price">$149.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </section>
+
+    <section id="lighting">
+      <h2>Smart Lighting</h2>
+      <p>
+        Set the perfect ambiance with our range of smart lighting options.
+        Control brightness and color with your phone.
+      </p>
+
+      <div class="product-card" data-product="Smart Bulb" data-price="39.99">
+        <img
+          src="./images/Smart Bulb.webp"
+          alt="Smart Bulb"
+          class="product-image"
+        />
+        <h3>Smart Bulbs</h3>
+        <p class="price">$39.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product-card" data-product="Motion Sensor" data-price="59.99">
+        <img
+          src="./images/Motion Sensor.webp"
+          alt="Motion Sensor"
+          class="product-image"
+        />
+        <h3>Motion Sensors</h3>
+        <p class="price">$59.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </section>
+
+    <section id="thermostats">
+      <h2>Smart Thermostats</h2>
+      <p>
+        Keep your home comfortable year-round with our intelligent thermostats
+        that learn your schedule.
+      </p>
+      <div
+        class="product-card"
+        data-product="Smart Thermostat Pro"
+        data-price="249.99"
+      >
+        <img
+          src="./images/Smart Thermostat.webp"
+          alt="Smart Thermostat"
+          class="product-image"
+        />
+        <h3>Smart Thermostat Pro</h3>
+        <p class="price">$249.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </section>
+
+    <section id="speakers">
+      <h2>Smart Speakers</h2>
+      <p>
+        Enhance your home with our smart speakers. Play music, control devices,
+        and more with voice commands.
+      </p>
+      <div
+        class="product-card"
+        data-product="Smart Speaker X"
+        data-price="129.99"
+      >
+        <img
+          src="./images/Smart Speaker.jpeg"
+          alt="Smart Speaker"
+          class="product-image"
+        />
+        <h3>Smart Speaker X</h3>
+        <p class="price">$129.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </section>
+
+    <section id="cart">
+      <h2>Your Cart</h2>
+      <ul id="cart-items"></ul>
+      <p id="cart-total">Total: $0.00</p>
+      <button id="checkout">Checkout</button>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Smart Home Devices. All rights reserved.</p>
+    </footer>
+
+    <script src="./javascript/script.js"></script>
+  </body>
+</html>
